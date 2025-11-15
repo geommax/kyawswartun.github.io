@@ -51,7 +51,7 @@ img {
 
 .section-title {
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 1.4rem;
     margin-bottom: 3rem;
     position: relative;
     text-transform: uppercase;
@@ -60,7 +60,7 @@ img {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-weight: 700;
+    font-weight: 350;
 }
 
 .section-title::after {
@@ -78,13 +78,13 @@ img {
 
 .btn {
     display: inline-block;
-    padding: 0.9rem 2rem;
+    padding: 0.6rem 1.5rem;
     border-radius: 50px;
     font-weight: 600;
     transition: var(--transition);
     cursor: pointer;
     border: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     position: relative;
@@ -144,12 +144,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
+    padding: 0.8rem 0;
 }
 
-.nav-brand h2 {
-    font-size: 2rem;
-    font-weight: 800;
+.nav-brand h4 {
+    font-size: 1rem;
+    font-weight: 400;
     background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
     -webkit-background-clip: text;
     background-clip: text;
@@ -242,18 +242,18 @@ header {
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
     background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     color: var(--gray-color);
     margin-bottom: 2.5rem;
     font-weight: 300;
@@ -363,7 +363,7 @@ header {
 }
 
 .stat-item h3 {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
     -webkit-background-clip: text;
     background-clip: text;
@@ -485,7 +485,7 @@ header {
 }
 
 .skill-category h3 {
-    font-size: 1.8rem;
+    font-size: 0.9rem;
     margin-bottom: 1.8rem;
     color: var(--light-color);
     display: flex;
@@ -589,7 +589,7 @@ header {
 }
 
 .project-card h3 {
-    font-size: 1.6rem;
+    font-size: 0.8rem;
     margin-bottom: 1.2rem;
     color: var(--light-color);
 }
@@ -696,7 +696,7 @@ header {
 }
 
 .timeline-content h3 {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     margin-bottom: 0.8rem;
     color: #ffffff;
 }
@@ -704,7 +704,7 @@ header {
 .timeline-content h4 {
     color: #ff00cc;
     margin-bottom: 1.2rem;
-    font-size: 1.2rem;
+    font-size: 0.6rem;
 }
 
 .timeline-content ul {
