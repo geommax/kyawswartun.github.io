@@ -400,7 +400,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: rotate 15s linear infinite;
+    animation: bounce 2s ease-in-out infinite;
 }
 
 .image-placeholder::before {
@@ -421,6 +421,17 @@ header {
     color: transparent;
     z-index: 3;
     position: relative;
+}
+
+.profile-image {
+    width: 93%;
+    height: 93%;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 3;
+    position: relative;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
 }
 
 /* Skills Section */
@@ -863,6 +874,15 @@ footer {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
     }
 }
 
