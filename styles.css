@@ -52,7 +52,8 @@ img {
 .section-title {
     text-align: center;
     font-size: 1.4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -253,10 +254,10 @@ header {
 }
 
 .hero-subtitle {
-    font-size: 0.75rem;
-    color: var(--gray-color);
+    font-size: 1rem;
+    color: var(--white-color);
     margin-bottom: 2.5rem;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
 }
 
@@ -485,7 +486,8 @@ header {
 }
 
 .skill-category h3 {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
+    font-weight: 400;
     margin-bottom: 1.8rem;
     color: var(--light-color);
     display: flex;
@@ -589,7 +591,8 @@ header {
 }
 
 .project-card h3 {
-    font-size: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 300;
     margin-bottom: 1.2rem;
     color: var(--light-color);
 }
@@ -667,21 +670,19 @@ header {
 .timeline-date {
     flex: 1;
     text-align: right;
-    padding-right: 2.5rem;
     font-weight: 600;
     color: var(--primary-color);
     font-size: 1.1rem;
     background-color: rgba(0, 198, 255, 0.1);
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
     align-self: center;
 }
 
 .timeline-content {
     flex: 1;
-    padding-left: 2.5rem;
+    padding: 2.5rem;
     background: rgba(255, 255, 255, 0.08);
-    padding: 2rem;
     border-radius: 15px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -696,7 +697,8 @@ header {
 }
 
 .timeline-content h3 {
-    font-size: 0.75rem;
+    font-size: 1.4rem;
+    font-weight: 300;
     margin-bottom: 0.8rem;
     color: #ffffff;
 }
@@ -704,7 +706,8 @@ header {
 .timeline-content h4 {
     color: #ff00cc;
     margin-bottom: 1.2rem;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .timeline-content ul {
